@@ -1,5 +1,5 @@
 (function($) {
-  $(document).on('ready', function() {
+  $(function() {
     var $actionsSelect, $formatsElement;
     if ($('body').hasClass('grp-change-list')) {
         // using grappelli
